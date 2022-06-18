@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    display: flex;
+    justify-content: center;
+    font-size: 100%;
+    background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.formulario { 
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px 40px;
+    flex-direction: column;
+	width: 400px; 
+    height: 600px;
+    background: #eafdfd;
+    margin: 80px 0 80px 0;
+    border-radius: 20px 0 0 20px;
+	box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.2);
+}
+
+.titulo h1 {
+    font-family:'Pacifico', cursive;
+    font-weight: 400;
+    color: #1A374D;
+    margin-bottom: 8px;
+}
+
+.titulo p {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    color: #406882;
+    margin-bottom: 16px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    color: #406882;
+}
+
+.obrigatorio {
+    color: #1A374D;
+}
+
+.campo input {
+    height: 35px;
+    margin-bottom: 8px;
+    border: none;
+    border: 1px solid #1A374D;
+    border-radius: 5px;
+    padding-left: 5px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.campo input:focus {
+    background: #c5d8e2 ;
+}
+
+.senha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0 16px 0;
+}
+
+.senha label {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    color: #406882;
+    font-size: 14px;
+}
+
+.senha input {
+    margin-right: 5px;
+}
+
+.senha a {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    color: #406882;
+    font-size: 14px;
+}
+
+.senha a:hover {
+    color: #1A374D;
+}
+
+.div-botao {
+    display: flex;
+    flex-direction: column;   
+}
+
+.botao {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1A374D;
+    height: 35px;
+    border: 1px solid #1A374D;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    background: #B1D0E0;
+    margin: 16px 0;
+}
+
+.botao-google {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1A374D;
+    height: 35px;
+    border: 1px solid #1A374D;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    background: white;
+    margin-bottom: 8px;
+}
+
+.botao-google:hover {
+    background:#fdfdfd;
+    box-shadow: inset 2px 2px 5px rgb(0, 0, 0, 0.2);
+    text-shadow: none;
+    cursor: pointer;
+}
+
+.botao-google:active {
+    background: whitesmoke;
+}
+
+.img-google {
+    height: 15px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.botao:hover {
+    background:#749dad;
+    box-shadow: inset 2px 2px 5px rgb(0, 0, 0, 0.2);
+    text-shadow: none;
+    cursor: pointer;
+}
+
+.botao:active {
+    background:#c7d7df;
+}
+
+.div-botao span {
+    text-align: center;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    color: #406882;
+    font-size: 14px;
+}
+
+.div-botao a {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    color: #1A374D;
+    font-size: 14px;
+}
+
+.div-botao a:hover {
+    color: #6998AB;
+}
+
+input::placeholder {
+    color: #a8a8a8;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+   }
+
+.cover {
+    width: 790px;
+    height: 600px;
+    margin: 80px 0 80px 0;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.2);
+}
+
+
